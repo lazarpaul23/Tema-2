@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Muli";
+    src: url('../font/static/Muli-Regular.ttf')
+}
+
+body {
+    font-family: "Muli";
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;  
+}
+
+.box {
+    height: 300px;
+}
+
+.left, .center, .right {
+    text-align: center;  
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p2 {
+    text-transform: full-width;   
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.first-li {
+    background-color: black;
+    margin-right: 25px;
+}
+
+.second-li {
+    background-color: white;
+    border: 3px solid black;
+    margin-right: 25px;
+}
+
+.first-li a {
+    color: white;
+    padding: 20px 20px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold; 
+     
+}
+
+.second-li a {
+    color: black;
+    padding: 20px 20px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+span {
+    margin-right: 5px;
+    margin-left: 15px;
+}
